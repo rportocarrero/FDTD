@@ -1,0 +1,27 @@
+# Ignore build and output directories
+obj/
+bin/
+
+# Ignore external libraries
+lib/
+
+# Ignore temporary files
+*.swp
+*.swo
+*~ 
+
+# Ignore generated files
+*.o
+*.a
+*.so
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+*.code-workspace
+*.sublime-*
+*.iml
+.idea/
